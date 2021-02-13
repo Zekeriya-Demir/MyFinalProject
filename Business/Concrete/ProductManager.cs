@@ -36,7 +36,7 @@ namespace Business.Concrete
             // Data döndürür
             // örnek olarak saat 22 de listeyi getirme, (maintenance) bakım zamanı.
             // data döndürecek, data burada default yani null'dır.
-            if (DateTime.Now.Hour ==22)
+            if (DateTime.Now.Hour == 2)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
